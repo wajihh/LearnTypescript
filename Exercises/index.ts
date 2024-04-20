@@ -47,3 +47,4 @@ for (let name of friend_names) {
 for (let name of friend_names) {
     console.log(`Asslam o alikum & Eid Mubarak, ${name}!`);
   }
+  
