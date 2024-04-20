@@ -1,6 +1,6 @@
 //subtraction
-let x = 5;
-let y = 3;
+let x = 15;
+let y = 13;
 let sub = x - 3; // 2
 console.log(sub)
 // Multiplication
