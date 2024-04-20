@@ -1,5 +1,0 @@
-// Personal Message
-// This program stores a person's name and prints a personalized message.
-let personname: string = "Eric";
-const message: string = `Hello ${name}, would you like to learn some Python today?`;
-console.log(message);
