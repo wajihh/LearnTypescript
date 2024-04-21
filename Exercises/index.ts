@@ -47,4 +47,42 @@ for (let name of friend_names) {
 for (let name of friend_names) {
     console.log(`Asslam o alikum & Eid Mubarak, ${name}!`);
   }
-  
+// This program defines an array hybridCars containing the names of 10 favourite hybrid cars. 
+const hybridCars: string[] = [
+  "Toyota Prius",
+  "Hyundai Sonata Hybrid",
+  "Ford Fusion Hybrid",
+  "Honda Clarity",
+  "Kia Niro",
+  "Chevrolet Bolt EV",
+  "Tesla Model 3",
+  "Toyota Camry Hybrid",
+  "Lexus ES Hybrid",
+  "BMW i3"
+];
+
+for (const car of hybridCars) {
+  let reason: string;
+  switch (car) {
+    case "Toyota Prius":
+      reason = "its reputation for reliability";
+      break;
+    case "Hyundai Sonata Hybrid":
+      reason = "its spacious interior and advanced features";
+      break;
+    case "Ford Fusion Hybrid":
+      reason = "its sporty handling and comfortable ride";
+      break;
+    case "Honda Clarity":
+      reason = "its long electric driving range";
+      break;
+    case "Kia Niro":
+      reason = "its stylish design and impressive fuel economy";
+      break;
+    default:
+      reason = "its innovative technology and eco-friendly performance";
+  }
+  console.log(`I would like to own a ${car} because of ${reason}.`);
+}
+
+
