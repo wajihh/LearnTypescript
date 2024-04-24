@@ -91,3 +91,97 @@ if (alien_color3 === "green") {
 } else if (alien_color3 === "red") {
   console.log("You earned 15 points for the red alien.");
 }
+// Task 28 Stages of Life
+let age: number = 65; // Set the age variable
+
+if (age < 2) {
+  console.log("You are a baby.");
+} else if (age < 4) {
+  console.log("You are a toddler.");
+} else if (age < 13) {
+  console.log("You are a kid.");
+} else if (age < 20) {
+  console.log("You are a teenager.");
+} else if (age < 65) {
+  console.log("You are an adult.");
+} else {
+  console.log("You are an elder.");
+}
+// Task 29 Faviourite Fruit
+let favoriteFruits: string[] = ["Apples", "Bananas", "Mangoes"];
+
+if (favoriteFruits.includes("Bananas")) {
+  console.log("You really like bananas!");
+}
+if (favoriteFruits.includes("Apples")) {
+  console.log("You enjoy apples as well.");
+}
+if (favoriteFruits.includes("Mangoes")) {
+  console.log("Mangoes are a great choice!");
+}
+// Add more checks for other favorite fruits
+// Task 30 Hello Admin
+let usernames1: string[] = ["user1", "user2", "admin", "user4", "user5"];
+
+for (let username of usernames1) {
+  if (username.toLowerCase() === "admin") {
+    console.log("Hello admin, would you like to see a status report?");
+  } else {
+    console.log(`Hello ${username}, thank you for logging in again.`);
+  }
+}
+// Task 31 No Users
+let usernames: string[] = []; // Empty array
+
+if (!usernames?.length) { // Check if usernames is null or undefined and then length
+  console.log("We need to find some users!");
+} else {
+  // ... rest of the code from Exercise 30
+}
+//Task 32 Checking User Names Case Sensitive Comparison
+let currentUsers: string[] = ["javed", "jannat", "ali", "bilal"];
+let newUsers: string[] = ["JAVED", "Marium", "alishba", "Dawood"];
+
+for (let newUser of newUsers) {
+  let isAvailable = currentUsers.every(
+    (currentUser) => currentUser.toLowerCase() !== newUser.toLowerCase()
+  );
+
+  if (isAvailable) {
+    console.log(`${newUser} is available.`);
+  } else {
+    console.log(`${newUser} will need to enter a new username.`);
+  }
+}
+// Task 33 Ordinal Numbers
+let numbers: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+for (let number of numbers) {
+  let ending: string;
+  if (number % 10 === 1 && number !== 11) {
+    ending = "st";
+  } else if (number % 10 === 2 && number !== 12) {
+    ending = "nd";
+  } else if (number % 10 === 3 && number !== 13) {
+    ending = "rd";
+  } else {
+    ending = "th";
+  }
+  console.log(`${number}${ending}`);
+}
+//Task 34 Pizzas
+let pizzas: string[] = ["Focaccia", "Hawaiian", "Margherita"];
+
+for (let pizza of pizzas) {
+  console.log(`I like ${pizza.toLowerCase()} pizza.`);
+}
+
+console.log("I really love pizza!");
+// Task 35 Animals
+let animals: string[] = ["Dogs", "Cats", "Rabbits"];
+
+for (let animal of animals) {
+  console.log(`${animal} would make a great pet.`);
+}
+
+console.log("Any of these animals would make a great companion!");
