@@ -1,2 +1,1 @@
-"use strict";
-console.log("Hellow World");
+console.log("Hellow World from New Dell");

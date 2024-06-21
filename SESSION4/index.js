@@ -1,3 +1,4 @@
+"use strict";
 // step04_unions_literals
 let myname;
 myname = null;
@@ -42,7 +43,7 @@ if (yourName) {
     yourName.toUpperCase(); // Ok: string
 }
 //yourName.toUpperCase();//Error: Object is possibly 'undefined'.
-yourName?.toUpperCase(); //OK
+yourName === null || yourName === void 0 ? void 0 : yourName.toUpperCase(); //OK
 let data;
 // step5a object literals
 let teacher = {
@@ -59,4 +60,3 @@ student = {
 };
 console.log(student["name"]);
 console.log(student.age);
-export {};

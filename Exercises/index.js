@@ -44,7 +44,7 @@ for (let name of friend_names) {
 for (let name of friend_names) {
     console.log(`Asslam o alikum & Eid Mubarak, ${name}!`);
 }
-// This program defines an array hybridCars containing the names of 10 hybrid cars. 
+// This program defines an array hybridCars containing the names of 10 favourite hybrid cars. 
 const hybridCars = [
     "Toyota Prius",
     "Hyundai Sonata Hybrid",

@@ -1,3 +1,4 @@
+"use strict";
 //step05b_object_aliased 
 // anonymous
 let teacher = {
@@ -13,4 +14,3 @@ console.log(student.age);
 let storeManager = {
     name: "Bilal"
 };
-export {};
