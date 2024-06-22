@@ -16,7 +16,7 @@ if (temperature < 20) {
 let apples: number = 10;
 
 // Subtract 3 from apples using the shorthand assignment operator
-apples -= 3;
+apples -= 5;
 
 // Use template literals to embed the value of 'apples' within the string 
 console.log(`You have ${apples} apples left.`);  // Log remaining apples using template literals
@@ -35,7 +35,7 @@ console.log(`Your full name is: ${fullName}`);  // Log the full name using templ
 // Comparison operator check with comment explaining the task
 // Declare constants 'num1' and 'num2' as numbers and assign values
 const num1: number = 5;
-const num2: number = 3;
+const num2: number = 2;
 
 // Check if 'num1' is greater than 'num2'
 if (num1 > num2) {
